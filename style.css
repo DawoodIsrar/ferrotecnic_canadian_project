@@ -42,29 +42,71 @@ input.outside,input[type=text].outside{color:#555;width:100%;font-size:15px;heig
 }
 
 .hero{
-    height: 650px;
-    background-image: url('./img/Rectangle\ 14.png');
+    height: 500px;
+    background-image: url('./img/Rectangle\ 14\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
-.hero-text{
-    margin-top: 20%;
-    margin-left: 20%;
+.main-box {
+    color:#fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    padding: 10px;
+    text-align: center;
 }
 .address{
     border: 1px solid rgba(221, 142, 27, 1);
     border-radius: 5px;
-    margin-right: 40px;
+    
     /* height: 301px; */
     /* width: 300; */
     padding: 40px;
 
 }
-.address :hover{
+.address:hover{
     background-color:  rgba(221, 142, 27, 1);
     color: white;
+}
+
+.address.text-center {
+  
+    width: 48%;
+    margin: 10px 10px;
+}
+.icons{
+    padding-top: 60px;
+    padding-left: 50px;
+}
+.address .afterhover{
+display: none;
+}
+.address:hover .afterhover{
+    display: inline-block;
+    }
+.address:hover .beforehover{
+        display: none;
+}
+.iner-box {
+    display: flex;
+    width: 100%;
+    margin-bottom: 47px;
+
+}
+.paralel-line {
+    display: flex;
+}
+.iner-box2 {
+    display: flex;
+    width: 100%;
 }
 .conatct-form{
     border: 1px solid rgba(221, 142, 27, 1);
     border-radius: 5px;
+    margin-top: 10px;
     /* height: 50%; */
 }
 .contactbtn{
@@ -82,44 +124,67 @@ input.outside,input[type=text].outside{color:#555;width:100%;font-size:15px;heig
     width: 100%;
     /* margin-top: 10px !important; */
     /* margin-bottom: 0px; */
-   
-    background: rgba(255, 255, 255, 1);
+    background:  rgba(221, 142, 27, 1);
     border: 1px solid rgba(221, 142, 27, 1);
     border-radius: 5px;
     height: 50px;
-    color: black; 
+    color: white; 
+
 }
 .loginibtn:hover{
     width: 100%;
     /* margin-top: 10px !important; */
     /* margin-bottom: 0px; */
+    background: rgba(255, 255, 255, 1);
+    color: black; 
    
+  
+}
+.login-2ibtn{
+    margin-top:30px;
+    width: 100%;
+    /* margin-top: 10px !important; */
+    /* margin-bottom: 0px; */
+    background: rgba(255, 255, 255, 1);
+   
+    border: 1px solid rgba(221, 142, 27, 1);
+    border-radius: 5px;
+    height: 50px;
+    color: black; 
+}
+.login-2ibtn:hover{
+    width: 100%;
+    /* margin-top: 10px !important; */
+    /* margin-bottom: 0px; */
     background:  rgba(221, 142, 27, 1);
+   
+  
     color: white; 
 }
 .map-responsive{
-    overflow:hidden;
-    padding-bottom:50%;
-    margin-top: 50px;
-    position:relative;
-    width: 100%;
+  
 }
 .map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+    margin-top: 56px;
+height: 300px;
+width: 100%;
 }
 .footer{
-    margin-bottom: 0;
-    padding-top: 5%;
+    position: relative;
+    margin-bottom: -17px;
+    padding-top: 3%;
     background: rgba(13, 14, 63, 1);
     color: white;
+    padding-bottom: 10px;
    
 }
 .footer hr {
    background-color: white;
+}
+.yellowfooter{
+    background:  rgba(221, 142, 27, 1);
+    height: 14px;
+    
 }
 .login-content{
     margin-top: 100px;
@@ -149,4 +214,15 @@ input.outside,input[type=text].outside{color:#555;width:100%;font-size:15px;heig
     height: 50px;
     color: white;
     text-decoration: none;
+    margin-left: 3px;
+}
+.reginput{
+    height: 55px; border: 2px solid rgba(13, 14, 63, 1);
+}
+.loginback{
+    background-image: url('./img/Login\ Page\ Desktop.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
